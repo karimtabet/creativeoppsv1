@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='TVPremieresApp'>
 <head>
 	<title>TV Show Premieres</title>
 	<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
@@ -13,6 +13,12 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div id='content' ng-controller='mainController' ng-init="init()">
+        <p>{{header}}</p>
+        <p>{{home}}</p>
+        <p>{{projects}}</p>
+        <p>{{contact}}</p>
+    </div>
     <div class='banner'>
         <div class='container'>
             <h1>TV SHOW PREMIERES</h1>
