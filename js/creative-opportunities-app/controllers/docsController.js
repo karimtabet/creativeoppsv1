@@ -1,4 +1,4 @@
-app.controller("mainController", function($scope, $http) {
+app.controller("docsController", function($scope, $http) {
     $scope.init = function() {
         //necessary for cross domain request
         delete $http.defaults.headers.common['X-Requested-With'];

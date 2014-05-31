@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html ng-app='CreativeOpportunitiesApp'  ng-controller='mainController' ng-init="init()">
+<html ng-app='CreativeOpportunitiesApp'  ng-controller='docsController' ng-init="init()">
+
 <head>
 	<title>{{header}}</title>
-	<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
 	<script type="text/javascript" src="js/angular.min.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css/pure.min.css">
 
-	<!-- INCLUDE APPLICATION SPECIFIC CSS AND JAVASCRIPT -->
 	<script type="text/javascript" src="js/creative-opportunities-app/app.js"></script>
-	<script type="text/javascript" src="js/creative-opportunities-app/controllers/mainController.js"></script>
+	<script type="text/javascript" src="js/creative-opportunities-app/controllers/docsController.js"></script>
     <script type="text/javascript" src="js/creative-opportunities-app/controllers/videosController.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id='content' ng-controller='videosController' ng-init="init()">
         <p>{{home}}</p>
