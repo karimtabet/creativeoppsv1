@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app='CreativeOpportunitiesApp'>
+<html ng-app='CreativeOpportunitiesApp'  ng-controller='mainController' ng-init="init()">
 <head>
 	<title>{{header}}</title>
 	<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div id='content' ng-controller='mainController' ng-init="init()">
+    <div id='content'>
         <p>{{home}}</p>
         <p>{{projects}}</p>
         <p>{{contact}}</p>
