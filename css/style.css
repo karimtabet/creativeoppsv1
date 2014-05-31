@@ -19,6 +19,10 @@ html, body,
 #contact {
     background-image: url(../img/bg1.jpg);
 }
+nav {
+    position: fixed;
+    top: 0;
+}
 h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
 }
