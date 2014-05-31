@@ -1,16 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
-body {
-   background-color: #5dace9;
-   height: 100%;
-}
-.pure-g {
-    position: relative;
-    display: block;
+html, body,
+#content,
+#content section {
     height: 100%;
-    width: 100%;
+}
+#content section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home {
+    background-image: url(../img/bg1.jpg);
 }
 #projects {
     background-image: url(../img/bg2.jpg);
+}
+#contact {
+    background-image: url(../img/bg1.jpg);
 }
 h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
