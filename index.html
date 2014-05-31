@@ -3,25 +3,34 @@
 
 <head>
 	<title>{{header}}</title>
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/nav-highlights.js"></script>
 	<script type="text/javascript" src="js/angular.min.js"></script>
-	<link rel="stylesheet" href="css/pure-min.css">
-
 	<script type="text/javascript" src="js/creative-opportunities-app/app.js"></script>
 	<script type="text/javascript" src="js/creative-opportunities-app/controllers/docsController.js"></script>
     <script type="text/javascript" src="js/creative-opportunities-app/controllers/videosController.js"></script>
-	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cbpFixedScrollLayout.css">
+    <script type="text/javascript" src="js/creative-opportunities-app/controllers/videosController.js"></script>
 </head>
 
 <body>
+
+    <script>
+        function changeHighlighted(btnId) {
+            document.getElementById("homeBtn").className = "";
+            document.getElementById("projectsBtn").className = "";
+            document.getElementById("contactBtn").className = "";
+            document.getElementById(btnId).className = "pure-menu-selected";
+        }
+    </script>
 
     <div id="content">
         <nav class="pure-menu pure-menu-open pure-menu-horizontal">
             <a href="#home" class="pure-menu-heading">Creative Opportunities</a>
             <ul>
-                <li class="pure-menu-selected"><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li id="homeBtn" class="pure-menu-selected"><a href="#home" onclick="changeHighlighted('homeBtn')">Home</a></li>
+                <li id="projectsBtn" class=""><a href="#projects" onclick="changeHighlighted('projectsBtn')">Projects</a></li>
+                <li id="contactBtn" class=""><a href="#contact" onclick="changeHighlighted('contactBtn')">Contact Us</a></li>
             </ul>
         </nav>
 
