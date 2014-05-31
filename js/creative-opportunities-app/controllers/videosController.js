@@ -5,9 +5,10 @@ app.controller("videosController", function($scope, $http) {
         $http.get(url).success(function(data) {
             angular.forEach(data, function(value, index) {
                 var video = {};
+                video['id'] = value.id;
                 video['title'] = value.title;
                 video['description'] = value.description;
-                video['url'] = value.url;
+                video['url'] = "http://player.vimeo.com/video/" + value.id;
                 $scope.videos.push(video);
             });
             
