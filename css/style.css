@@ -1,6 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
 body {
    background-color: #5dace9;
+   height: 100%;
+}
+.pure-g {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#home {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
