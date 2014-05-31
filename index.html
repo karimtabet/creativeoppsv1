@@ -19,11 +19,11 @@
 
     <div id="content">
         <nav class="pure-menu pure-menu-open pure-menu-horizontal">
-            <a href="#home" class="pure-menu-heading">Creative Opportunities</a>
+            <a href="#home" class="pure-menu-heading" data-scroll-nav="0" onclick="changeHighlighted('homeBtn')">Creative Opportunities</a>
             <ul>
-                <li id="homeBtn" class="pure-menu-selected"><a href="#home" onclick="changeHighlighted('homeBtn')" data-scroll-nav="0">Home</a></li>
-                <li id="projectsBtn" class=""><a href="#projects" onclick="changeHighlighted('projectsBtn')" data-scroll-nav="1">Projects</a></li>
-                <li id="contactBtn" class=""><a href="#contact" onclick="changeHighlighted('contactBtn')" data-scroll-nav="2">Contact Us</a></li>
+                <li id="homeBtn" class="pure-menu-selected"><a href="#home" data-scroll-nav="0">Home</a></li>
+                <li id="projectsBtn"><a href="#projects" data-scroll-nav="1">Projects</a></li>
+                <li id="contactBtn"><a href="#contact" data-scroll-nav="2">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -40,7 +40,7 @@
 
         <section id="projects" data-scroll-index="1">
             <div id='content'>
-                <p>{{projects}}</p>
+                <!-- <p>{{projects}}</p> -->
                 <p>{{contact}}</p>
             </div>
         </section>
