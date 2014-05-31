@@ -4,7 +4,7 @@
 <head>
 	<title>{{header}}</title>
 	<script type="text/javascript" src="js/angular.min.js"></script>
-	<link rel="stylesheet" href="css/pure.min.css">
+	<link rel="stylesheet" href="css/pure-min.css">
 
 	<script type="text/javascript" src="js/creative-opportunities-app/app.js"></script>
 	<script type="text/javascript" src="js/creative-opportunities-app/controllers/docsController.js"></script>
@@ -13,6 +13,16 @@
 </head>
 
 <body>
+    <div class="pure-menu pure-menu-open pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading">Creative Opportunities</a>
+
+        <ul>
+            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
     <div id='content' ng-controller='videosController' ng-init="init()">
         <p>{{home}}</p>
         <p>{{projects}}</p>
