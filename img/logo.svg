@@ -40,7 +40,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.47"
-     inkscape:cx="1316.4493"
+     inkscape:cx="1403.8511"
      inkscape:cy="150.14493"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -73,8 +73,8 @@
      id="layer1"
      transform="translate(-16.35514,-52.290494)">
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:27.10000038;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 142.2857,555.21932 885.7143,0 c 56.1183,-18.29317 102.4273,-44.99424 105.7142,-108.57142 -8.9216,-51.25348 -7.6679,-107.59461 -60,-137.14286 -46.6667,-26.68888 -93.3333,-6.20678 -139.99996,11.42857 -3.1391,-38.20211 2.81959,-76.21311 -37.14281,-128.57143 C 880.64552,173.45576 847.46554,136.25109 779.42851,146.6479 703.14786,151.836 678.20841,185.89507 656.57144,198.07647 635.07309,117.0645 556.64258,70.10285 530.85714,72.36218 c -66.6667,-9.74742 -133.3333,-14.20074 -200,28.57143 C 264.95094,136.38466 226.4263,193.74103 236.5714,290.03318 171.6388,275.03649 79.1665,265.41439 48,332.89032 18.3764,390.80951 27.197,448.72871 59.4285,506.6479 c 25.2826,37.57465 49.3345,39.56176 82.8572,48.57142 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:27.10000038000000089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 142.2857,555.21932 885.7143,0 c 56.1183,-18.29317 102.4273,-44.99424 105.7142,-108.57142 0.224,-51.25348 -6.7114,-107.59461 -60,-137.14286 -46.6667,-26.68888 -93.3333,-6.20678 -139.99996,11.42857 -3.1391,-38.20211 2.81959,-76.21311 -37.14281,-128.57143 C 880.64552,173.45576 847.46554,136.25109 779.42851,146.6479 703.14786,151.836 678.20841,185.89507 656.57144,198.07647 635.07309,117.0645 556.64258,70.10285 530.85714,72.36218 c -66.6667,-9.74742 -133.3333,-14.20074 -200,28.57143 C 264.95094,136.38466 226.4263,193.74103 236.5714,290.03318 171.6388,275.03649 79.1665,265.41439 48,332.89032 18.3764,390.80951 27.197,448.72871 59.4285,506.6479 c 25.2826,37.57465 49.3345,39.56176 82.8572,48.57142 z"
        id="path2996"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc" />
@@ -200,7 +200,7 @@
            id="tspan4241">e</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:264.30615234px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:264.30615233999998281px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:#1a1a1a;font-family:Sans"
        x="1152.693"
        y="538.94336"
        id="text4291"
@@ -211,11 +211,11 @@
          id="tspan4293"><tspan
            x="1152.693"
            y="538.94336"
-           style="font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+           style="font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book;stroke:#1a1a1a;fill:#333333"
            id="tspan4295">O</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:225px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:225px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:#1a1a1a;font-family:Sans"
        x="1378.8036"
        y="497.32895"
        id="text4219"
@@ -226,11 +226,11 @@
          id="tspan4221"><tspan
            x="1378.8036"
            y="497.32895"
-           style="font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+           style="font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book;stroke:#1a1a1a;fill:#333333"
            id="tspan4223">p</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:200px;font-style:normal;font-variant:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       style="font-size:200px;font-style:normal;font-variant:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:#1a1a1a;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
        x="1531.375"
        y="483.34924"
        id="text4231"
@@ -241,11 +241,11 @@
          id="tspan4233"><tspan
            x="1531.375"
            y="483.34924"
-           style="font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+           style="font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book;stroke:#1a1a1a;fill:#333333"
            id="tspan4235">p</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:#1a1a1a;font-family:Sans"
        x="1662.8036"
        y="476.63074"
        id="text4225"
@@ -254,10 +254,10 @@
          x="1662.8036"
          y="476.63074"
          id="tspan4227"
-         style="font-size:180px"><tspan
+         style="font-size:180px;stroke:#1a1a1a;fill:#333333"><tspan
            x="1662.8036"
            y="476.63074"
-           style="font-size:180px;font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+           style="font-size:180px;font-variant:normal;font-stretch:normal;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book;stroke:#1a1a1a;fill:#333333"
            id="tspan4229">ortunities</tspan></tspan></text>
   </g>
 </svg>
