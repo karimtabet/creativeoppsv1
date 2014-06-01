@@ -1,6 +1,7 @@
 html, body,
 #content,
 #content section {
+    font-family: 'Indie Flower', cursive;
     text-align: center;
     height: 100%;
 }
@@ -28,13 +29,13 @@ nav {
     position: fixed;
     top: 0;
 }
-h1, h2, h3 {
-    font-family: 'Archivo Narrow', sans-serif;
+p {
+    font-family: 'Indie Flower', cursive;
 }
 .pure-u-2-5, .pure-u-1-4 {
     background-color: #FFFFFF;
     padding: 10px;
-    margin: 5px;
+    margin: 2%;
     border-radius: 15px;
     text-align: center;
 }
