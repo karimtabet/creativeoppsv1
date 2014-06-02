@@ -65,10 +65,13 @@
 
                         <div class="modal_content" id="{{project.id}}">
                             <p>{{project.title}}</p>
-                            <div class="owl-carousel">
+                            <div class="modal_photo_carousel">
                                 <div ng-repeat="photo in project.photos">
                                     <div><img height="200px" src="{{photo}}"></div>
                                 </div>
+                            </div>
+                            <div ng-repeat="video in project.videos">
+                                <iframe src="http://player.vimeo.com/video/63534746" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                             <p>{{project.description}}</p>
                             <a onclick="closeModal()">CLOSE<a>

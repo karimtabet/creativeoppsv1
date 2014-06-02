@@ -1,8 +1,8 @@
 function openModal(project) {
     var projectId = "#" + project;
     $(projectId).modal();
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
+    var owlPhoto = $('.modal_photo_carousel');
+    owlPhoto.owlCarousel({
         center:true,
         items:4,
         loop:true,
