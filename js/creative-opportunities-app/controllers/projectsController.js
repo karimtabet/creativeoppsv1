@@ -3,6 +3,7 @@ app.controller("projectsController", function($scope, $http) {
     $scope.projectList = [];
     $scope.project.photos = [];
     $scope.project.videos = [];
+    var projectIndex = 0;
     $scope.init = function() {
         //necessary for cross domain request
         delete $http.defaults.headers.common['X-Requested-With'];
@@ -16,6 +17,7 @@ app.controller("projectsController", function($scope, $http) {
                 switch (title) {
                     case "Title":
                         $scope.project = {};
+                        $scope.project.id = projectIndex;
                         $scope.project.photos = [];
                         $scope.project.videos = [];
                         $scope.project.title = content;
@@ -33,8 +35,10 @@ app.controller("projectsController", function($scope, $http) {
                 }
                 if (title == "END PROJECT") {
                     $scope.projectList.push($scope.project);
+                    projectIndex += 1;
                 }
             });
+            console.log($scope.projectList);
         }).error(function(error) {
  
         });

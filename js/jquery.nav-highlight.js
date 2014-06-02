@@ -21,3 +21,9 @@ function removeClass(button1, button2) {
     $(button1).removeClass("pure-menu-selected");
     $(button2).removeClass("pure-menu-selected");
 }
+
+function openModal(project) {
+    var projectId = "#" + project;
+    $(projectId).modal();
+    return false;
+}
