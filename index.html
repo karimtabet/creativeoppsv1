@@ -5,6 +5,8 @@
 	<title>{{header}}</title>
     <link rel="stylesheet" href="css/pure-min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.nav-highlight.js"></script>
@@ -16,6 +18,8 @@
     <script src="js/scrollIt.min.js" type="text/javascript"></script>
     <script src="js/jquery.simplemodal.min.js" type="text/javascript"></script>
     <script src="js/modal-controls.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js"></script>
+
 </head>
 
 <body>
@@ -61,6 +65,11 @@
 
                         <div class="modal_content" id="{{project.id}}">
                             <p>{{project.title}}</p>
+                            <div class="owl-carousel">
+                                <div ng-repeat="photo in project.photos">
+                                    <div><img height="200px" src="{{photo}}"></div>
+                                </div>
+                            </div>
                             <p>{{project.description}}</p>
                             <a onclick="closeModal()">CLOSE<a>
                         </div>

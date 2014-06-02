@@ -40,6 +40,9 @@ html, body,
     background-color:#FFFFFF;
     border-radius: 15px;
 }
+.photo_slider { position: relative; overflow: auto; }
+    .photo_slider li { list-style: none; }
+        .photo_slider ul li { float: left; }
 nav {
     position: fixed;
     top: 0;
