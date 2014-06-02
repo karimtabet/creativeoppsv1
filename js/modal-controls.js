@@ -3,6 +3,7 @@ function openModal(project) {
     $(projectId).modal();
     var owl = $('.owl-carousel');
     owl.owlCarousel({
+        center:true,
         items:4,
         loop:true,
         margin:10,
