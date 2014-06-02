@@ -13,8 +13,8 @@ html, body,
     background-attachment: fixed;
 }
 #home, #projects, #contact {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 #home {
     background-image: url(../img/bg1.jpg);
