@@ -38,7 +38,6 @@ app.controller("projectsController", function($scope, $http) {
                     projectIndex += 1;
                 }
             });
-            console.log($scope.projectList);
         }).error(function(error) {
  
         });
