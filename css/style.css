@@ -13,11 +13,17 @@ html, body,
     background-attachment: fixed;
 }
 #home, #projects, #contact, #simplemodal-container {
-    padding-left: 3%;
-    padding-right: 3%;
     -webkit-box-shadow: 0px 0px 10px 5px #888888;
     -moz-box-shadow: 0px 0px 10px 5px #888888;
     box-shadow: 0px 0px 10px 5px #888888;
+}
+#home, #projects, #contact {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.modal_photo_carousel {
+    height: 210px;
+    padding: 0;
 }
 #home {
     background-image: url(../img/bg1.jpg);

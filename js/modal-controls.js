@@ -9,7 +9,8 @@ function openModal(project) {
         margin:10,
         autoplay:true,
         autoWidth:true,
-        lazyLoad:true
+        lazyLoad:true,
+        dots:false
     });
     return false;
 }
