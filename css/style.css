@@ -21,9 +21,11 @@ html, body,
 }
 #projects {
     background-image: url(../img/bg2.jpg);
+    box-shadow: 0px 0px 10px 5px #888888;
 }
 #contact {
     background-image: url(../img/bg3.jpg);
+    box-shadow: 0px 0px 10px 5px #888888;
 }
 nav {
     position: fixed;
