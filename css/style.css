@@ -12,7 +12,7 @@ html, body,
     background-size: cover;
     background-attachment: fixed;
 }
-#home, #projects, #contact, #simplemodal-container {
+#home, #projects, #contact, #simplemodal-container, iframe {
     -webkit-box-shadow: 0px 0px 10px 5px #888888;
     -moz-box-shadow: 0px 0px 10px 5px #888888;
     box-shadow: 0px 0px 10px 5px #888888;
@@ -22,8 +22,22 @@ html, body,
     padding-right: 3%;
 }
 .modal_photo_carousel {
-    height: 210px;
-    padding: 0;
+    height: 220px;
+    background-color: #000;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: inset 0px 0px 20px 0px #888888;
+    -moz-box-shadow: inset 0px 0px 20x 0px #888888;
+    box-shadow: inset 0px 0px 20px 0px #888888;
+}
+iframe {
+    position: relative;
+    border-radius: 10px;
+}
+img {
+    border-color: #FFFFFF;
+    border-radius:10px;
 }
 #home {
     background-image: url(../img/bg1.jpg);
