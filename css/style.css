@@ -1,10 +1,8 @@
 html, body,
 #content,
 #content section {
-    text-align: center;
     height: 100%;
-}
-#content section {
+    text-align: center;
     position: relative;
     background-position: top center;
     background-repeat: no-repeat;
@@ -65,11 +63,14 @@ img {
     .photo_slider li { list-style: none; }
         .photo_slider ul li { float: left; }
 nav {
-    font-family: 'Lilita One', cursive;
-    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     position: fixed;
     top: 0;
     box-shadow: 0px 0px 10px 10px #888888;
+}
+nav li {
+    padding-top: 10px;
 }
 h1 {
     font-family: 'Kranky', cursive;
