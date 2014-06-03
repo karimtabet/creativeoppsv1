@@ -1,6 +1,11 @@
 function openModal(project) {
     var projectId = "#" + project;
     $(projectId).modal({
+        onOpen: function (dialog) {
+            dialog.overlay.fadeIn('fast');
+            dialog.data.fadeIn();
+            dialog.container.slideDown();
+        },
         autoResize:true,
         overlayClose:true
     });
