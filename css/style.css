@@ -79,7 +79,7 @@ p {
     font-family: 'Lilita One', cursive;
     font-size: 18px;
 }
-.pure-u-2-5, .pure-u-1-4 {
+.pure-u-2-5, .pure-u-1-4, #project_list {
     background-color: #FFFFFF;
     padding: 10px;
     margin: 2%;
@@ -89,4 +89,16 @@ p {
 .pure-menu li a:hover, .pure-menu li a:focus {
     background: none;
     text-decoration: underline;
+}
+#project_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#project_item:hover, #project_item:focus {
+    background-color: #D1D1D1;
+    cursor: pointer;
+}
+#project_item p {
+    font-size: 22px;
 }
