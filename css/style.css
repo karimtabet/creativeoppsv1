@@ -9,7 +9,7 @@ html, body,
     background-size: cover;
     background-attachment: fixed;
 }
-#home, #projects, #contact, #simplemodal-container, iframe {
+#home, #projects, #contact, iframe {
     -webkit-box-shadow: 0px 0px 10px 5px #888888;
     -moz-box-shadow: 0px 0px 10px 5px #888888;
     box-shadow: 0px 0px 10px 5px #888888;
@@ -18,15 +18,15 @@ html, body,
     padding-left: 3%;
     padding-right: 3%;
 }
+#simplemodal-container {
+    -webkit-box-shadow: 0px 0px 10px 0px #000;
+    -moz-box-shadow: 0px 0px 10px 0px #000;
+    box-shadow: 0px 0px 10px 0px #000;
+}
 .modal_photo_carousel {
     height: 220px;
-    background-color: #000;
     vertical-align: middle;
-    padding-top: 20px;
     margin-bottom: 20px;
-    -webkit-box-shadow: inset 0px 0px 20px 0px #888888;
-    -moz-box-shadow: inset 0px 0px 20x 0px #888888;
-    box-shadow: inset 0px 0px 20px 0px #888888;
 }
 #modal_video_container {
     padding-right: 20px;
