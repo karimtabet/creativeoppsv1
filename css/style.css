@@ -34,9 +34,16 @@ html, body,
 iframe {
     border-radius: 10px;
 }
-img {
+.modal_content img {
     border-color: #FFFFFF;
     border-radius:10px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+.modal_content img:hover, .modal_content img:focus {
+    cursor: pointer;
+    opacity:1.0;
+    filter:alpha(opacity=100);
 }
 #home {
     background-image: url(../img/bg1.jpg);
