@@ -2,9 +2,16 @@ function openModal(project) {
     var projectId = "#" + project;
     $(projectId).modal({
         onOpen: function (dialog) {
-            dialog.overlay.fadeIn('fast');
-            dialog.data.fadeIn();
-            dialog.container.slideDown();
+            dialog.overlay.fadeIn('medium');
+            dialog.data.fadeIn('medium');
+            dialog.container.slideDown('medium');
+        },
+        onClose: function(dialog) {
+            dialog.data.fadeOut('medium');
+            dialog.container.slideUp('medium');
+            dialog.overlay.fadeOut('medium', function () {
+                $.modal.close(); // must call this!
+            });
         },
         autoResize:true,
         overlayClose:true
@@ -21,8 +28,4 @@ function openModal(project) {
         dots:false
     });
     return false;
-}
-
-function closeModal() {
-    $.modal.close();
 }
