@@ -86,3 +86,7 @@ p {
     border-radius: 15px;
     text-align: center;
 }
+.pure-menu li a:hover, .pure-menu li a:focus {
+    background: none;
+    text-decoration: underline;
+}
