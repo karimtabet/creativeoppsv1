@@ -34,13 +34,13 @@ html, body,
 iframe {
     border-radius: 10px;
 }
-.modal_content img {
+.owl-item {
     border-color: #FFFFFF;
     border-radius:10px;
     opacity:0.8;
     filter:alpha(opacity=80);
 }
-.modal_content img:hover, .modal_content img:focus {
+.owl-item:hover, .owl-item:focus {
     cursor: pointer;
     opacity:1.0;
     filter:alpha(opacity=100);
@@ -67,8 +67,8 @@ iframe {
     border-radius: 15px;
 }
 .photo_slider { position: relative; overflow: auto; }
-    .photo_slider li { list-style: none; }
-        .photo_slider ul li { float: left; }
+.photo_slider li { list-style: none; }
+.photo_slider ul li { float: left; }
 nav {
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
