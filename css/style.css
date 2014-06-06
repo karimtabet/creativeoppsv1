@@ -46,13 +46,13 @@ iframe {
     filter:alpha(opacity=100);
 }
 #home {
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/bg1.png);
 }
 #projects {
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/bg2.png);
 }
 #contact {
-    background-image: url(../img/bg3.jpg);
+    background-image: url(../img/bg3.png);
 }
 .modal_content {
     display: none;
