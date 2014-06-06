@@ -89,7 +89,7 @@ p {
     font-family: 'Comfortaa', cursive;
     font-size: 18px;
 }
-.pure-u-2-5, .pure-u-1-4, #project_list {
+.pure-u-2-5, .pure-u-1-4, #project_list, .page_text {
     background-color: #FFFFFF;
     padding: 10px;
     margin: 2%;
@@ -99,6 +99,9 @@ p {
 .pure-menu li a:hover, .pure-menu li a:focus {
     background: none;
     text-decoration: underline;
+}
+.page_text {
+    display: inline-block;
 }
 #project_item {
     margin-top: 10px;
