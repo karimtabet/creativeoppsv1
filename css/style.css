@@ -53,6 +53,7 @@ iframe {
 }
 #contact {
     background-image: url(../img/bg3.png);
+    overflow:auto;
 }
 .modal_content {
     display: none;
@@ -119,4 +120,8 @@ p {
 }
 #projects h2, #contact h2 {
     padding-top: 100px;
+}
+#footer {
+    background-color: #000;
+    
 }
