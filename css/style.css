@@ -117,6 +117,6 @@ p {
 #project_item p {
     font-size: 22px;
 }
-#projects h2 {
+#projects h2, #contact h2 {
     padding-top: 100px;
 }
