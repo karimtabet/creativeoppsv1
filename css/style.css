@@ -107,14 +107,9 @@ p {
     text-decoration: underline;
 }
 #home_down_btn {
-    height: 100%;
     font-size: 28px;
     font-family: 'Indie Flower', cursive;
     vertical-align: middle;
-}
-#arrow {
-    display: inline-block;
-    padding-top: 15px;
 }
 #project_item {
     margin-top: 10px;
