@@ -106,6 +106,15 @@ p {
     background: none;
     text-decoration: underline;
 }
+#home_down_btn {
+    font-size: 28px;
+    font-family: 'Indie Flower', cursive;
+    vertical-align: middle;
+}
+#home_down_btn img {
+    position: relative;
+    margin-top: 15px;
+}
 #project_item {
     margin-top: 10px;
     margin-bottom: 10px;

@@ -21,3 +21,7 @@ function removeClass(button1, button2) {
     $(button1).removeClass("pure-menu-selected");
     $(button2).removeClass("pure-menu-selected");
 }
+
+$("#arrow").mouseover(function() {
+    $(this).effect("bounce", { times:5 }, 300);
+});
