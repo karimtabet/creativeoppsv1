@@ -107,13 +107,14 @@ p {
     text-decoration: underline;
 }
 #home_down_btn {
+    height: 100%;
     font-size: 28px;
     font-family: 'Indie Flower', cursive;
     vertical-align: middle;
 }
-#home_down_btn img {
-    position: relative;
-    margin-top: 15px;
+#arrow {
+    display: inline-block;
+    padding-top: 15px;
 }
 #project_item {
     margin-top: 10px;
