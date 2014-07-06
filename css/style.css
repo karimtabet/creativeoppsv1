@@ -48,6 +48,9 @@ iframe {
     opacity:1.0;
     filter:alpha(opacity=100);
 }
+.owl-carousel .owl-item img {
+    width: auto;
+}
 #home {
     background-image: url(../img/bg1.png);
 }
@@ -99,22 +102,28 @@ p {
 a:hover, a:focus {
     cursor: pointer;
 }
-.pure-u-2-5, .pure-u-1-4, #project_list, .page_text {
+#home_content, .pure-u-1-4, #project_list, .page_text {
     background-color: #FFFFFF;
     padding: 10px;
     margin: 0 auto;
     border-radius: 15px;
     text-align: center;
 }
-.pure-u-2-5 h2 {
-    font-size: 15px;
+#home_content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#home_content h2 {
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .pure-menu li a:hover, .pure-menu li a:focus {
     background: none;
     text-decoration: underline;
 }
 .down_btn {
-    display: inline-block;
     font-size: 28px;
     font-family: 'Indie Flower', cursive;
     vertical-align: middle;
@@ -125,6 +134,9 @@ a:hover, a:focus {
     opacity:1.0;
     filter:alpha(opacity=100);
     cursor: pointer;
+}
+#project_list {
+    margin-bottom: 2%;
 }
 #project_item {
     margin-top: 10px;
