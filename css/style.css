@@ -8,6 +8,10 @@ html, body,
     background-size: cover;
     background-attachment: fixed;
 }
+section h2 {
+    padding-right: 8%;
+    padding-left: 8%;
+}
 #projects, #contact, #modal_video_container iframe {
     -webkit-box-shadow: 0px 0px 10px 5px #888888;
     -moz-box-shadow: 0px 0px 10px 5px #888888;
@@ -98,7 +102,7 @@ a:hover, a:focus {
 .pure-u-2-5, .pure-u-1-4, #project_list, .page_text {
     background-color: #FFFFFF;
     padding: 10px;
-    margin: 2%;
+    margin: 0 auto;
     border-radius: 15px;
     text-align: center;
 }
@@ -143,7 +147,7 @@ a:hover, a:focus {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin: 2%;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
