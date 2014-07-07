@@ -179,6 +179,7 @@ a:hover, a:focus {
     background-color: #FFFFFF;
     border-radius: 15px;
     margin: 0 auto;
+    margin-right: 40px;
     padding-left: 15px;
     padding-right: 15px;
 }
