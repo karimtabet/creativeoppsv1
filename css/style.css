@@ -12,8 +12,8 @@ section h2 {
     box-shadow: 0px 0px 10px 5px #888888;
 }
 #home, #projects, #contact {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #simplemodal-container {
     -webkit-box-shadow: 0px 0px 2px 0px #000;
@@ -112,37 +112,118 @@ a:hover, a:focus {
     text-align: center;
 }
 #home_content, #project_list, #contact_boxes{
-    margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
     margin-right: 5%;
 }
-#home_content p {
-    font-size: 22px;
-    text-align: left;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 40px;
+#image_fader img, .inner_home_blurb, #about_us, #feeds {
+    -webkit-box-shadow: 1px 1px 2px 0px #363636;
+    -moz-box-shadow: 1px 1px 2px 0px #363636;
+    box-shadow: 1px 1px 2px 0px #363636;
 }
-#home_content .pure-u-2-3 {
-    background-color: #FFFFFF;
-    width: 60%;
-    margin-left: 85px;
+.home_blurb {
+    height: 20em;
+    color: #FFFFFF;
+}
+.inner_home_blurb {
+    height: 100%;
+    padding-left: 1em;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+}
+#red_blurb {
+    background-color: #D83C1C;
+    margin-right: 1em;
+}
+#green_blurb {
+    background-color: #8CC053;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+#orange_blurb {
+    margin-left: 1em;
+    background-color: #FEA72B;
+}
+.inner_home_blurb .blurb_icon {
+    float: left;
+    height: 8em;
+    width: 8em;
+    padding-top: 1em;
+    margin-right: 1em;
+}
+#orange_blurb .blurb_icon {
+    padding-top: 0.3em;
+}
+.home_blurb_header {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    padding-top: 0.5em;
+    font-size: 2.4em;
+    padding-left: 2em;
+}
+#home_content #about_us {
+    background-color: #FFFFFF;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-right: 0.5em;
+    height: 35em;
+}
+#home_content #about_us h2 {
+    font-size: 1.7em;
+    text-align: left;
+    padding-bottom: 0;
+    padding-top: 1em;
+    padding-left: 5%;
+    line-height: 0;
+}
+#home_content #about_us .video {
+    display: inline-block;
+    float: right;
+    margin-left: 1em;
+    padding-right: 1em;
+}
+#home_content #about_us .video p {
+    color: #3C3C3C;
+    margin-top: 0.1em;
+    font-size: 0.7em;
+    line-height: 0;
+}
+#home_content #feeds {
+    color: #FFFFFF;
+    background-color: #A23CAA;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    height: 35em;
+}
+#home_content p {
+    font-size: 22px;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    line-height: 40px;
 }
 .pure-menu li a:hover, .pure-menu li a:focus {
     background: none;
     text-decoration: underline;
 }
 .down_btn {
-    font-size: 28px;
+    float: right;
+    padding-top: 10.2em;
+    padding-right: .6em;
+    font-size: 1.1em;
     font-family: 'Indie Flower', cursive;
-    vertical-align: middle;
     opacity:0.8;
     filter:alpha(opacity=80);
+}
+.down_btn img {
+    padding-left: 0.2em;
+    width: .6em;
 }
 .down_btn:hover, #home_down_btn:focus {
     opacity:1.0;
@@ -220,5 +301,8 @@ a:hover, a:focus {
     display: block;
     width: 100%;
     height: 450px;
-    margin-bottom: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-bottom: 1em;
 }
