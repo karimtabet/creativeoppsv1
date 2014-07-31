@@ -17,15 +17,15 @@
 
     <div id="content">
         <nav class="pure-menu pure-menu-open pure-menu-horizontal">
-            <a data-scroll-nav="0" class="pure-menu-heading"><img src="img/logo.svg" alt="CreativeOpportunities" height="50px" data-scroll-nav="0"></a>
+            <a id="logo" class="pure-menu-heading"><img src="img/logo.svg" alt="CreativeOpportunities" height="50px"></a>
             <ul>
-                <li id="homeBtn" class="pure-menu-selected"><a data-scroll-nav="0">Home</a></li>
-                <li id="projectsBtn"><a data-scroll-nav="1">Projects</a></li>
-                <li id="contactBtn"><a data-scroll-nav="2">Contact Us</a></li>
+                <li id="homeBtn" class="pure-menu-selected"><a>Home</a></li>
+                <li id="projectsBtn" class="projects_btn"><a>Projects</a></li>
+                <li id="contactBtn" class="contact_btn"><a>Contact Us</a></li>
             </ul>
         </nav>
 
-        <section id="home" data-scroll-index="0">
+        <section id="home">
             <br><br><br><br><br>
             <div class="pure-g" id="home_content">
                 <div id="image_fader" class="owl-carousel owl-theme">
@@ -37,7 +37,7 @@
                     <div id="red_blurb" class="inner_home_blurb">
                         <img src="img/mission-icon.svg" class="blurb_icon">
                         <div class="home_blurb_header">Our mission</div>
-                        <div id="about_down_btn" class="down_btn" data-scroll-nav="3">More about us...<img src="img/arrow.svg">
+                        <div id="about_down_btn" class="down_btn">More about us...<img src="img/arrow.svg">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <div id="green_blurb" class="inner_home_blurb">
                         <img src="img/projects-icon.svg" class="blurb_icon">
                         <div class="home_blurb_header">Our projects</div>
-                        <div class="down_btn" data-scroll-nav="1">Our list of projects...<img src="img/arrow.svg">
+                        <div class="down_btn projects_btn">Our list of projects...<img src="img/arrow.svg">
                         </div>
                     </div>
                 </div>
@@ -53,12 +53,12 @@
                     <div id="orange_blurb" class="inner_home_blurb">
                         <img src="img/donate-icon.svg" class="blurb_icon">
                         <div class="home_blurb_header">How you can help</div>
-                        <div class="down_btn" data-scroll-nav="2">Get hold of us...<img src="img/arrow.svg">
+                        <div class="down_btn contact_btn">Get hold of us...<img src="img/arrow.svg">
                         </div>
                     </div>
                 </div>
                 <div class="pure-u-2-3">
-                    <div id="about_us" data-scroll-index="3">
+                    <div id="about_us">
                         <h2>About Us</h2>
                         <div class="video"><iframe src="http://player.vimeo.com/video/63534746" width="350" height="200"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>Video from our latest project: International Mindedness</p></div>
                         <p>Creative opportunities is a not-for-profit organisation that aims to encourage artistic practices in order to benefit the community.</p>
@@ -74,7 +74,7 @@
             <br>
         </section>
 
-        <section id="projects" data-scroll-index="1" ng-controller='projectsController' ng-init="init()">
+        <section id="projects" ng-controller='projectsController' ng-init="init()">
             <h2>{{projects}}</h2>
             <div id="project_list">
                 <div ng-repeat="project in projectList">
@@ -110,13 +110,13 @@
                     </div>
                 </div>
             </div>
-            <div class="down_btn" data-scroll-nav="2">
+            <div class="down_btn">
                 Find out how to contact us below!
                 <img src="img/arrow.png">
             </div>
         </section>
 
-        <section id ="contact" data-scroll-index="2">
+        <section id ="contact">
             <h2>{{contact}}</h2>
             <div id="contact_boxes" class="pure-g">
                 <div class="pure-u-1-3">
@@ -153,31 +153,25 @@
     <script src="js/owl.carousel.min.js"></script>
 
     <script>
-        function randomOwl(owlSelector){
-            owlSelector.children().sort(function(){
-                return Math.round(Math.random()) - 0.5;
-            }).each(function(){
-                $(this).appendTo(owlSelector);
-            });
-        }
-        $(document).ready(function() {
-          $("#image_fader").owlCarousel({
-            singleItem: true,
-            transitionStyle: "fade",
-            autoPlay: true,
-            pagination: false,
-            beforeInit : function(elem){
-              randomOwl(elem);
-            }
-          });
+        $('#homeBtn').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#home").offset().top-90
+            }, 500);
         });
-        $.scrollIt({
-            upKey: null,
-            downKey: null,
-            scrollTime: 500
+        $('.projects_btn').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#projects").offset().top-90
+            }, 500);
         });
-        $(function() {
-            $.scrollIt();
+        $('.contact_btn').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top-90
+            }, 500);
+        });
+        $('#logo').click(function() {
+            $('html, body').animate({
+                scrollTop: $("#home").offset().top-90
+            }, 500);
         });
         $('#about_down_btn').click(function() {
             $('html, body').animate({

@@ -1,3 +1,24 @@
+//Select a random photo for image fader
+function randomOwl(owlSelector) {
+    owlSelector.children().sort(function(){
+        return Math.round(Math.random()) - 0.5;
+    }).each(function(){
+        $(this).appendTo(owlSelector);
+    });
+}
+//Image fader settings
+$(document).ready(function() {
+  $("#image_fader").owlCarousel({
+    singleItem: true,
+    transitionStyle: "fade",
+    autoPlay: true,
+    pagination: false,
+    beforeInit : function(elem){
+      randomOwl(elem);
+    }
+  });
+});
+//Project image scroller settings
 function openModal(project) {
     var projectId = "#" + project;
     $(projectId).modal({
@@ -10,7 +31,7 @@ function openModal(project) {
             dialog.data.fadeOut('medium');
             dialog.container.slideUp('medium');
             dialog.overlay.fadeOut('medium', function () {
-                $.modal.close(); // must call this!
+                $.modal.close();
             });
         },
         autoResize:true,
