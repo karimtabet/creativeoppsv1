@@ -123,6 +123,9 @@ a:hover, a:focus {
 }
 .home_blurb {
     height: 20em;
+    width: 33.3%;
+    display: inline-block;
+    float: left;
     color: #FFFFFF;
 }
 .inner_home_blurb {
@@ -152,22 +155,23 @@ a:hover, a:focus {
     padding-top: 1em;
     margin-right: 1em;
 }
-#orange_blurb .blurb_icon {
-    padding-top: 0.3em;
-}
 .home_blurb_header {
     font-family: 'Comfortaa', cursive;
     text-align: left;
-    padding-top: 0.5em;
+    padding-top: 0.7em;
     font-size: 2.4em;
     padding-left: 2em;
 }
 #home_content #about_us {
+    display: inline-block;
+    width: 65%;
+    float: left;
     background-color: #FFFFFF;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    margin-right: 0.5em;
+    margin-right: 2.2em;
+    margin-top: 1.6em;
     height: 35em;
 }
 #home_content #about_us h2 {
@@ -191,12 +195,13 @@ a:hover, a:focus {
     line-height: 0;
 }
 #home_content #feeds {
+    display: inline-block;
+    width: 31.5%;
     color: #FFFFFF;
     background-color: #A23CAA;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    margin-left: 1em;
     margin-top: 1.5em;
     height: 35em;
 }
@@ -214,7 +219,7 @@ a:hover, a:focus {
 }
 .down_btn {
     float: right;
-    padding-top: 10.2em;
+    padding-top: 9.6em;
     padding-right: .6em;
     font-size: 1.1em;
     font-family: 'Indie Flower', cursive;
@@ -223,7 +228,7 @@ a:hover, a:focus {
 }
 .down_btn img {
     padding-left: 0.2em;
-    width: .6em;
+    width: 1.2em;
 }
 .down_btn:hover, #home_down_btn:focus {
     opacity:1.0;
