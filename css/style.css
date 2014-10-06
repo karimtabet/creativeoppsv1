@@ -51,6 +51,7 @@ iframe {
 }
 #home {
     background-image: url(../img/bg1.png);
+    overflow: auto;
 }
 #projects {
     background-image: url(../img/bg2.png);
@@ -123,7 +124,7 @@ a:hover, a:focus {
 }
 .home_blurb {
     height: 20em;
-    width: 33.3%;
+    width: 20em;
     display: inline-block;
     float: left;
     color: #FFFFFF;
@@ -163,14 +164,12 @@ a:hover, a:focus {
     padding-left: 2em;
 }
 #home_content #about_us {
-    display: inline-block;
-    width: 65%;
+    width: 64%;
     float: left;
     background-color: #FFFFFF;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    margin-right: 2.2em;
     margin-top: 1.6em;
     height: 35em;
 }
@@ -181,6 +180,9 @@ a:hover, a:focus {
     padding-top: 1em;
     padding-left: 5%;
     line-height: 0;
+}
+#home_content #about_us p {
+    font-size: 1.1em;
 }
 #home_content #about_us .video {
     display: inline-block;
@@ -195,7 +197,7 @@ a:hover, a:focus {
     line-height: 0;
 }
 #home_content #feeds {
-    display: inline-block;
+    float: right;
     width: 31.5%;
     color: #FFFFFF;
     background-color: #A23CAA;
